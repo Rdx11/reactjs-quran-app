@@ -1,5 +1,5 @@
 import './App.css';
-import Qlogo from './Qlogo.png';
+// import Qlogo from './Qlogo.png';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
         <section className="glass">
           <div className="dashboard">
             <div className="user">
-              <img src={Qlogo} alt="quran logo" className="ava"/>
+              <img src={process.env.PUBLIC_URL + "/Qlogo.png"} alt="quran logo" className="ava"/>
             </div>
             <div className="links">
               <div className="link">
@@ -22,7 +22,7 @@ function App() {
             </div>
             <div className="cards">
               <div className="card">
-                <img src="./images/assassins.png" alt="" />
+                <img src={process.env.PUBLIC_URL + "/Qimg.png"} alt="" className="logo"/>
                 <div className="card-info">
                   <h2>Al-Fatihah</h2>
                   <p>Count: 7</p>
@@ -30,7 +30,7 @@ function App() {
                 </div>
               </div>
               <div className="card">
-                <img src="./images/assassins.png" alt="" />
+                <img src={process.env.PUBLIC_URL + "/Qimg.png"} alt="" className="logo"/>
                 <div className="card-info">
                   <h2>Al-Fatihah</h2>
                   <p>Count: 7</p>
@@ -38,7 +38,7 @@ function App() {
                 </div>
               </div>
               <div className="card">
-                <img src="./images/assassins.png" alt="" />
+                <img src={process.env.PUBLIC_URL + "/Qimg.png"} alt="" className="logo"/>
                 <div className="card-info">
                   <h2>Al-Fatihah</h2>
                   <p>Count: 7</p>
@@ -46,23 +46,7 @@ function App() {
                 </div>
               </div>
               <div className="card">
-                <img src="./images/assassins.png" alt="" />
-                <div className="card-info">
-                  <h2>Al-Fatihah</h2>
-                  <p>Count: 7</p>
-                  <p>Place: Mecca-Makiyah</p>
-                </div>
-              </div>
-              <div className="card">
-                <img src="./images/assassins.png" alt="" />
-                <div className="card-info">
-                  <h2>Al-Fatihah</h2>
-                  <p>Count: 7</p>
-                  <p>Place: Mecca-Makiyah</p>
-                </div>
-              </div>
-              <div className="card">
-                <img src="./images/assassins.png" alt="" />
+                <img src={process.env.PUBLIC_URL + "/Qimg.png"} alt="" className="logo"/>
                 <div className="card-info">
                   <h2>Al-Fatihah</h2>
                   <p>Count: 7</p>
