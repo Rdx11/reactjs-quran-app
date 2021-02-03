@@ -1,5 +1,5 @@
 import './App.css';
-// import Qlogo from './Qlogo.png';
+import Surah from './components/Surah';
 
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
             <div className="user">
               <img src={process.env.PUBLIC_URL + "/Qlogo.png"} alt="quran logo" className="ava"/>
             </div>
-            <div className="links">
-              <div className="link">
+            <div className="dashs">
+              <div className="dash">
                 <h1>Quran App</h1>
               </div>
             </div>
@@ -20,40 +20,7 @@ function App() {
             <div className="search">
               <input type="text"/>
             </div>
-            <div className="cards">
-              <div className="card">
-                <img src={process.env.PUBLIC_URL + "/Qimg.png"} alt="" className="logo"/>
-                <div className="card-info">
-                  <h2>Al-Fatihah</h2>
-                  <p>Count: 7</p>
-                  <p>Place: Mecca-Makiyah</p>
-                </div>
-              </div>
-              <div className="card">
-                <img src={process.env.PUBLIC_URL + "/Qimg.png"} alt="" className="logo"/>
-                <div className="card-info">
-                  <h2>Al-Fatihah</h2>
-                  <p>Count: 7</p>
-                  <p>Place: Mecca-Makiyah</p>
-                </div>
-              </div>
-              <div className="card">
-                <img src={process.env.PUBLIC_URL + "/Qimg.png"} alt="" className="logo"/>
-                <div className="card-info">
-                  <h2>Al-Fatihah</h2>
-                  <p>Count: 7</p>
-                  <p>Place: Mecca-Makiyah</p>
-                </div>
-              </div>
-              <div className="card">
-                <img src={process.env.PUBLIC_URL + "/Qimg.png"} alt="" className="logo"/>
-                <div className="card-info">
-                  <h2>Al-Fatihah</h2>
-                  <p>Count: 7</p>
-                  <p>Place: Mecca-Makiyah</p>
-                </div>
-              </div>
-            </div>
+            <Surah/>
           </div>
         </section>
       </main>
