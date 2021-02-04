@@ -119,11 +119,21 @@ main {
   outline: none;
 }
 
+.search h2 {
+  margin-left: 8px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 2.5rem;
+  opacity: 0.8;
+}
+
 .df-surah {
-  margin: 5rem;
+  margin: 2rem;
+  /* margin-bottom: 3rem; */
+  /* margin-top: 1rem; */
   flex-direction: column;
   justify-content: space-evenly;
-  height: 80vh;
+  height: 88vh;
   width: 60%;
   overflow-y: scroll;
 }
