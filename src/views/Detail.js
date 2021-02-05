@@ -1,7 +1,5 @@
 import React from 'react';
 import DetailSurah from '../components/DetailSurah';
-import Search from '../components/Search';
-import Surah from '../components/Surah';
 
 function Detail(props) {
     return (

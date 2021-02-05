@@ -129,8 +129,6 @@ main {
 
 .df-surah {
   margin: 2rem;
-  /* margin-bottom: 3rem; */
-  /* margin-top: 1rem; */
   flex-direction: column;
   justify-content: space-evenly;
   height: 88vh;
@@ -158,6 +156,10 @@ main {
 
 }
 
+.card-info h2:hover {
+  color: #6cdbeb;
+}
+
 .percentage {
   font-weight: bold;
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
@@ -181,4 +183,59 @@ main {
   height: 100px;
   border-radius: 50%;
   background-size: cover;
+}
+
+.detail-surah {
+  margin: 2rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 88vh;
+  width: 60%;
+  overflow-y: scroll;
+  flex: 2;
+}
+
+.card-ayat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.button {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  color: #658ec6;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+/* skeleton */
+
+.card-skeleton {
+  background: -webkit-gradient(linear, left top, 
+              right top, from(transparent),  
+              color-stop(rgba(255, 255, 255, 0.2)), 
+              to(transparent));                 
+  background: linear-gradient(90deg, transparent, 
+            rgba(255, 255, 255, 0.2), transparent); 
+  display: flex;
+  border-radius: 1.2rem;
+  margin: 2rem 0rem;
+  padding: 2rem;
 }

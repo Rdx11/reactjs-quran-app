@@ -10,7 +10,7 @@ function Router(props) {
                 <Route exact path='/'>
                     <Home/>
                 </Route>
-                <Route path='/detail/:identifier'>
+                <Route path='/detail-surah/:identifier'>
                     <Detail/>
                 </Route>
             </Switch>
